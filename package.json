@@ -1,0 +1,12 @@
+{
+  "name": "@gago/stylelint-config",
+  "version": "1.0.0",
+  "description": "gago style lint",
+  "main": "index.js",
+  "keywords": ["stylelint"],
+  "author": "wanghaodong",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^9.2.0"
+  }
+}
