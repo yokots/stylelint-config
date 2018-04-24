@@ -11,4 +11,4 @@ module.exports = {
     // 不允许缺少通用字体名称（上述关键字）
     // "font-family-no-missing-generic-family-keyword": true,
   }
-  }
+}

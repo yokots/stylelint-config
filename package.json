@@ -1,5 +1,5 @@
 {
-  "name": "@yoko/stylelint-config",
+  "name": "@yoko/stylelint-config-scss",
   "version": "1.0.0",
   "description": "yoko style lint",
   "main": "index.js",
@@ -10,5 +10,8 @@
   "license": "MIT",
   "peerDependencies": {
     "stylelint": "^9.9.0"
+  },
+  "dependencies": {
+    "stylelint-scss": "^3.2.0"
   }
 }

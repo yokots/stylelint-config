@@ -3,7 +3,7 @@ module.exports = {
     // 禁止空注释
     "comment-no-empty": true,
     // 禁止不正确的双斜线注释
-    "no-invalid-double-slash-comments": true,
+    // "no-invalid-double-slash-comments": true,
      // /* comment */
     "comment-whitespace-inside": "always",
      // 注释之前加一个空行

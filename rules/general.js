@@ -4,8 +4,8 @@ module.exports = {
     "indentation": 2,
     // 最多一个空行
     "max-empty-lines": 1,
-    // 一行最多140个字符
-    "max-line-length": [140, {
+    // 一行最多80个字符
+    "max-line-length": [80, {
       "ignore": ["comments"]
     }],
     // 禁止空文件

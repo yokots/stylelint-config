@@ -10,7 +10,9 @@ module.exports = {
     // 右大括号之前不需要空行
     "block-closing-brace-empty-line-before": "never",
     // 右大括号之后另起一行
-    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-after": ["always", {
+      "ignoreAtRules": ["if", "else"]
+    }],
     // 多行声明时右大括号单独一行
     "block-closing-brace-newline-before": "always-multi-line",
     // 单行块的右大括号之前需要一个空格

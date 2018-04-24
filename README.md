@@ -7,26 +7,28 @@
 3. [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#CSS)
 4. [Stylelint Rules](https://stylelint.io/user-guide/rules/)
 5. [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+6. [Sass Guidelines](https://sass-guidelin.es/) ([中文](https://sass-guidelin.es/zh/))
+7. [stylelint-scss](https://github.com/kristerkari/stylelint-scss)
 
 ## Usage
 
-- ```npm install stylelint @yoko/stylelint-config -D```
+- ```npm install stylelint @yoko/stylelint-config-scss -D```
 
 - 在项目根目录下新建 .stylelintrc.json
 
   ```json
   {
-    "extends": ["@yoko/stylelint-config"],
+    "extends": ["@yoko/stylelint-config-scss"],
     "rules": {
       // 覆盖默认规则
     },
     "ignoreFiles": [
-      "node_modules/**/*.css",
+      "node_modules/**/*.scss",
       "/* your ignore files */"
     ]
   }
   ```
-- ```npx stylelint src/**/*.css``` （npx 仅可在 npm 5.2 之上适用）
+- ```npx stylelint src/**/*.scss``` （npx 仅可在 npm 5.2 之上适用）
 
 # 强烈建议
 
@@ -49,7 +51,7 @@
   "extends": ["@commitlint/config-conventional"]
 },
 "lint-staged": {
-  "*.css": [
+  "*.scss": [
     "stylelint --fix",
     "git add"
   ]

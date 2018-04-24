@@ -1,9 +1,7 @@
 module.exports = {
   "rules": {
     // 禁止错误的 at-rule
-    "at-rule-no-unknown": [true, {
-      "ignoreAtRules": ["extend", "util"]
-    }],
+    "at-rule-no-unknown": null,
     // 禁止供应商前缀
     "at-rule-no-vendor-prefix": true,
     // at-rule 小写
@@ -12,7 +10,8 @@ module.exports = {
     // at-rule 之前加一个空行
     "at-rule-empty-line-before": ["always", {
       "except": ["blockless-after-same-name-blockless", "first-nested"],
-      "ignore": ["after-comment"]
+      "ignore": ["after-comment"],
+      "ignoreAtRules": ["else"]
     }],
     // 有多行的规则时 at-rule name 之后加一个空行
     "at-rule-name-newline-after": "always-multi-line",
