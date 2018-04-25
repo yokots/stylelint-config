@@ -1,6 +1,6 @@
 {
   "name": "@gago/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "gago style lint",
   "main": "index.js",
   "keywords": [

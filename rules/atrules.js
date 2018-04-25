@@ -1,7 +1,9 @@
 module.exports = {
   "rules": {
     // 禁止错误的 at-rule
-    "at-rule-no-unknown": true,
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["extend", "util"]
+    }],
     // 禁止供应商前缀
     "at-rule-no-vendor-prefix": true,
     // at-rule 小写
