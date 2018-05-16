@@ -21,7 +21,7 @@ module.exports = {
     // 禁止渐变函数中不标准的方向值，to top not top
     "function-linear-gradient-no-nonstandard-direction": true,
     // url函数的地址不需要加引号 https://stackoverflow.com/questions/2168855/is-quoting-the-value-of-url-really-necessary
-    "function-url-quotes": "never",
+    "function-url-quotes": "always",
 
     // https://stylelint.io/user-guide/rules/function-comma-newline-before/
     // "function-comma-newline-before": string,
