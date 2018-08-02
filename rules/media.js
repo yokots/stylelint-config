@@ -33,5 +33,7 @@ module.exports = {
     // media-feature-name-blacklist: array|string|regex ,
     // 媒体属性白名单
     // media-feature-name-whitelist: array|string|regex,
+    // 媒体属性值白名单
+    // "media-feature-name-value-whitelist":
   }
 }

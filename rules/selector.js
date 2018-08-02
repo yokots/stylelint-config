@@ -81,6 +81,9 @@ module.exports = {
     // 选择器组逗号之前没有空格
     "selector-list-comma-space-before": "never",
 
+    // 动画名称模式
+    "keyframes-name-pattern": "^([a-z]-?)+[a-z]$",
+
     // https://stylelint.io/user-guide/rules/selector-max-specificity/
     // "selector-max-specificity": string,
     // 嵌套规则

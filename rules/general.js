@@ -22,5 +22,7 @@ module.exports = {
     }],
     // 禁止未定义的动画
     "no-unknown-animations": true,
+    // 换行格式
+    "linebreaks": "unix",
   }
 }

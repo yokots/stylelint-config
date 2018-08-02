@@ -9,6 +9,6 @@
   "author": "wanghaodong",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": "^9.2.0"
+    "stylelint": "^9.4.0"
   }
 }
