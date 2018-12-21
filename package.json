@@ -1,7 +1,7 @@
 {
-  "name": "@gago/stylelint-config",
-  "version": "1.0.4",
-  "description": "gago style lint",
+  "name": "@yoko/stylelint-config",
+  "version": "1.0.0",
+  "description": "yoko style lint",
   "main": "index.js",
   "keywords": [
     "stylelint"
@@ -9,6 +9,6 @@
   "author": "wanghaodong",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": "^9.4.0"
+    "stylelint": "^9.9.0"
   }
 }

@@ -10,6 +10,8 @@ module.exports = {
     }],
     // 禁止空文件
     "no-empty-source": true,
+    // 第一行禁止为空
+    "no-empty-first-line": true,
     // 禁止行末空格
     "no-eol-whitespace": true,
      // 禁止多余的分号
@@ -18,7 +20,7 @@ module.exports = {
     "no-missing-end-of-source-newline": true,
     // 最大嵌套深度
     "max-nesting-depth": [3, {
-      "ignore": ["blockless-at-rules"]
+      "ignore": ["blockless-at-rules", "pseudo-classes"]
     }],
     // 禁止未定义的动画
     "no-unknown-animations": true,

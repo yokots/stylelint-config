@@ -49,6 +49,9 @@
   "extends": ["@commitlint/config-conventional"]
 },
 "lint-staged": {
-  "*.css": "stylelint"
+  "*.css": [
+    "stylelint --fix",
+    "git add"
+  ]
 },
 ```
