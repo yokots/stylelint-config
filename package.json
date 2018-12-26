@@ -1,12 +1,15 @@
 {
-  "name": "@yoko/stylelint-config-scss",
+  "name": "@yokots/stylelint-config-scss",
   "version": "1.0.0",
   "description": "yoko style lint",
   "main": "index.js",
   "keywords": [
     "stylelint"
   ],
-  "author": "wanghaodong",
+  "author": {
+    "name": "yokots",
+    "email": "hd.wang1993@gmail.com"
+  },
   "license": "MIT",
   "peerDependencies": {
     "stylelint": "^9.9.0"
