@@ -60,9 +60,9 @@ module.exports = {
     "scss/double-slash-comment-whitespace-inside": "always",
     // "scss/double-slash-comment-inline": "always"
 
-    "scss/declaration-nested-properties": ["always", {
-      except: ["only-of-namespace"]
-    }],
+    // "scss/declaration-nested-properties": ["always", {
+    //   except: ["only-of-namespace"]
+    // }],
     "scss/declaration-nested-properties-no-divided-groups": true,
 
     // "scss/media-feature-value-dollar-variable": "always",
