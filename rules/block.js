@@ -1,7 +1,9 @@
 module.exports = {
   "rules": {
     // 禁止空的代码块
-    "block-no-empty": true,
+    "block-no-empty": [true, {
+      "ignore": ["comments"]
+    }],
     // 多行的规则块之前保留一个空行
     "rule-empty-line-before": ["always-multi-line", {
       "except": ["first-nested"],

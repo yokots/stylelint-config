@@ -3,6 +3,8 @@ module.exports = {
     "stylelint-scss"
   ],
   "rules": {
+
+    "scss/at-each-key-value-single-line": true,
     // 覆写 stylelint 的规则，添加 scss 自有的 at rule
     "scss/at-rule-no-unknown": true,
 
@@ -71,6 +73,9 @@ module.exports = {
 
     // "scss/partial-no-import": true,
 
-    "scss/selector-no-redundant-nesting-selector": true
+    "scss/selector-no-redundant-nesting-selector": true,
+
+    "scss/function-quote-no-quoted-strings-inside": true,
+    "scss/function-unquote-no-unquoted-strings-inside": true
   }
 }

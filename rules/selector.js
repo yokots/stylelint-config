@@ -27,7 +27,9 @@ module.exports = {
       "ignore": ["attribute"]
     }],
     // 禁止重复的选择器
-    "no-duplicate-selectors": true,
+    "no-duplicate-selectors": [true, {
+      "disallowInList": true
+    }],
     // 低权重的选择器放在前面
     "no-descending-specificity": true,
 
@@ -47,7 +49,9 @@ module.exports = {
     // 一个选择规则中最多有三个类选择器
     "selector-max-class": 3,
     // 一个选择规则中最多有两个个元素选择器
-    "selector-max-type": 2,
+    "selector-max-type": [2, {
+      "ignore": ["next-sibling"]
+    }],
     // 一个选择规则中最多有一个属性选择器
     "selector-max-attribute": 1,
     // 一个选择规则中最多有两个联合选择器
