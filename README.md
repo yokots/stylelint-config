@@ -12,13 +12,13 @@
 
 ## Usage
 
-- ```npm install stylelint @yoko/stylelint-config-scss -D```
+- ```npm install stylelint @yokots/stylelint-config-scss -D```
 
 - 在项目根目录下新建 .stylelintrc.json
 
   ```json
   {
-    "extends": ["@yoko/stylelint-config-scss"],
+    "extends": ["@yokots/stylelint-config-scss"],
     "rules": {
       // 覆盖默认规则
     },
