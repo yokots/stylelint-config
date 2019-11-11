@@ -31,7 +31,9 @@ module.exports = {
       "disallowInList": true
     }],
     // 低权重的选择器放在前面
-    "no-descending-specificity": true,
+    "no-descending-specificity": [true, {
+      "ignore": ["selectors-within-list"]
+    }],
 
     // ID 选择器模式
     "selector-id-pattern": "^([a-z]-?)+[a-z]$",

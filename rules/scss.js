@@ -16,6 +16,8 @@ module.exports = {
     "scss/at-else-empty-line-before": "never",
     "scss/at-else-if-parentheses-space-before": "always",
 
+    "scss/at-if-no-null": true,
+
     // extend 需要占位符来使生成的 css 文件更小
     "scss/at-extend-no-missing-placeholder": true,
 
@@ -76,6 +78,11 @@ module.exports = {
     "scss/selector-no-redundant-nesting-selector": true,
 
     "scss/function-quote-no-quoted-strings-inside": true,
-    "scss/function-unquote-no-unquoted-strings-inside": true
+    "scss/function-unquote-no-unquoted-strings-inside": true,
+
+    // https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/dimension-no-non-numeric-values/README.md
+    "scss/dimension-no-non-numeric-values": true,
+
+    "scss/no-duplicate-mixins": true
   }
 }
