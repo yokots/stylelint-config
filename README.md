@@ -10,13 +10,13 @@
 
 ## Usage
 
-- ```npm install stylelint @yoko/stylelint-config -D```
+- ```npm install stylelint @yokots/stylelint-config -D```
 
 - 在项目根目录下新建 .stylelintrc.json
 
   ```json
   {
-    "extends": ["@yoko/stylelint-config"],
+    "extends": ["@yokots/stylelint-config"],
     "rules": {
       // 覆盖默认规则
     },
