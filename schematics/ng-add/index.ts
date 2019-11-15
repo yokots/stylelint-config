@@ -33,6 +33,10 @@ export default function (): Rule {
     Reflect.deleteProperty(pkg.dependencies, name);
     tree.overwrite('/package.json', JSON.stringify(pkg, null, 2));
 
+    if (tree.exists('/.stylelintrc.json')) {
+      tree.delete('/.stylelintrc.json');
+    }
+
     const templateSource = apply(url('./files'), [
       template({}),
       renameTemplateFiles(),

@@ -1,6 +1,6 @@
 {
   "name": "@yokots/stylelint-config-scss",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "yoko style lint",
   "main": "index.js",
   "scripts": {
