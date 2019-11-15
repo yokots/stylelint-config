@@ -14,7 +14,7 @@
 
 - ```npm install stylelint @yokots/stylelint-config-scss -D```
 
-- 在项目根目录下新建 .stylelintrc.json
+- 在项目根目录下新建 `.stylelintrc.json`
 
   ```json
   {
@@ -30,9 +30,17 @@
   ```
 - ```npx stylelint src/**/*.scss``` （npx 仅可在 npm 5.2 之上适用）
 
+> 如果使用 `angular` 可使用如下命令
+
+```
+ng add @yokots/stylelint-config-scss
+
+npm run lint:style
+```
+
 # 强烈建议
 
-  > 每个人在自己的工程中配置 pre-commit 钩子，在提交代码之前进行检查
+  > 每个人在自己的工程中配置 `pre-commit` 钩子，在提交代码之前进行检查
 
   * [husky](https://github.com/typicode/husky) 用 node 配置钩子
   * [lint-staged](https://github.com/okonet/lint-staged) 只检查将要提交的代码

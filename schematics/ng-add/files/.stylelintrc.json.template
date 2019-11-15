@@ -1,0 +1,7 @@
+{
+  "extends": ["@yokots/stylelint-config-scss"],
+  "rules": {},
+  "ignoreFiles": [
+    "node_modules/**/*.scss"
+  ]
+}

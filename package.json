@@ -1,8 +1,14 @@
 {
   "name": "@yokots/stylelint-config-scss",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "yoko style lint",
   "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./schematics",
+    "clean": "rm ./schematics/**/*.js",
+    "prepublishOnly": "npm run build",
+    "postpublish": "npm run clean"
+  },
   "keywords": [
     "stylelint"
   ],
@@ -11,10 +17,17 @@
     "email": "hd.wang1993@gmail.com"
   },
   "license": "MIT",
+  "schematics": "./schematics/collection.json",
   "peerDependencies": {
+    "@angular-devkit/core": "^9.0.0-rc.2",
+    "@angular-devkit/schematics": "^9.0.0-rc.2",
     "stylelint": "^11.1.1"
   },
   "dependencies": {
     "stylelint-scss": "^3.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "typescript": "^3.6.4"
   }
 }
