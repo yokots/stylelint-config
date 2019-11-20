@@ -3,7 +3,7 @@ import {
   apply, branchAndMerge, mergeWith, template, renameTemplateFiles, url,
 } from '@angular-devkit/schematics';
 import { NodePackageInstallTask } from '@angular-devkit/schematics/tasks';
-import { name, version, peerDependencies } from '../../package.json';
+import { name, version } from '../../package.json';
 
 interface Dependencies {
   [key: string]: string;
@@ -28,7 +28,6 @@ export default function (): Rule {
     pkg.scripts['lint:style'] = "stylelint src/**/*.scss --fix";
     pkg.scripts = sortObjectByKeys(pkg.scripts);
     pkg.devDependencies[name] = `^${version}`;
-    pkg.devDependencies['stylelint'] = peerDependencies.stylelint;
     pkg.devDependencies = sortObjectByKeys(pkg.devDependencies);
     Reflect.deleteProperty(pkg.dependencies, name);
     tree.overwrite('/package.json', JSON.stringify(pkg, null, 2));

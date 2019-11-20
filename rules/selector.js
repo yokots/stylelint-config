@@ -27,9 +27,7 @@ module.exports = {
       "ignore": ["attribute"]
     }],
     // 禁止重复的选择器
-    "no-duplicate-selectors": [true, {
-      "disallowInList": true
-    }],
+    "no-duplicate-selectors": true,
     // 低权重的选择器放在前面
     "no-descending-specificity": [true, {
       "ignore": ["selectors-within-list"]
