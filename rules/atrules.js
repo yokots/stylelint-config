@@ -23,8 +23,8 @@ module.exports = {
     "at-rule-semicolon-space-before": "never",
 
     // at-rule 黑名单
-    // "at-rule-blacklist": array|string
+    // "at-rule-disallowed-list": array|string
     // at-rule 白名单
-    // "at-rule-whitelist": array|string
+    // "at-rule-allowed-list": array|string
   }
 }

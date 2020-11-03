@@ -30,12 +30,12 @@ module.exports = {
     // 禁用 scheme-relative url
     // "function-url-no-scheme-relative": true,
     // url scheme 白名单
-    // "function-url-scheme-whitelist": array|string ,
+    // "function-url-scheme-allowed-list": array|string ,
     // url scheme 黑名单
-    // "function-url-scheme-blacklist": array|string ,
+    // "function-url-scheme-disallowed-list": array|string ,
     // 函数黑名单
-    // "function-blacklist": array|string,
+    // "function-disallowed-list": array|string,
     // 函数白名单
-    // "function-whitelist": array|string,
+    // "function-allowed-list": array|string,
   }
 }

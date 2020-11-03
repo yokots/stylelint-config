@@ -35,12 +35,12 @@ module.exports = {
     "declaration-block-semicolon-space-before": "never",
 
     // 属性名和单位对黑名单
-    // "declaration-property-unit-blacklist": object,
+    // "declaration-property-unit-disallowed-list": object,
     // 属性名和单位对白名单
-    // "declaration-property-unit-whitelist": object,
+    // "declaration-property-unit-allowed-list": object,
     // 键值位对黑名单
-    // "declaration-property-value-blacklist": object,
+    // "declaration-property-value-disallowed-list": object,
     // 键值对对白名单
-    // "declaration-property-value-whitelist": object,
+    // "declaration-property-value-allowed-list": object,
   }
 }

@@ -27,7 +27,9 @@ module.exports = {
       "ignore": ["attribute"]
     }],
     // 禁止重复的选择器
-    "no-duplicate-selectors": true,
+    "no-duplicate-selectors": [true, {
+      "disallowInList": true
+    }],
     // 低权重的选择器放在前面
     "no-descending-specificity": [true, {
       "ignore": ["selectors-within-list"]
@@ -93,16 +95,16 @@ module.exports = {
     // 嵌套规则
     // "selector-nested-pattern": regex|string
     // 属性选择器操作符黑名单
-    // "selector-attribute-operator-blacklist": array|string,
+    // "selector-attribute-operator-disallowed-list": array|string,
     // 属性选择器操作符白名单
-    // "selector-attribute-operator-whitelist": array|string,
+    // "selector-attribute-operator-allowed-list": array|string,
     // 伪类选择器黑名单
-    // "selector-pseudo-class-blacklist": array|string,
+    // "selector-pseudo-class-disallowed-list": array|string,
     // 伪类选择器白名单
-    // "selector-pseudo-class-whitelist": array|string,
+    // "selector-pseudo-class-allowed-list": array|string,
     // 伪元素选择器黑名单
-    // "selector-pseudo-element-blacklist": array|string,
+    // "selector-pseudo-element-disallowed-list": array|string,
     // 伪元素选择器白名单
-    // "selector-pseudo-element-whitelist": array|string,
+    // "selector-pseudo-element-allowed-list": array|string,
   }
 }

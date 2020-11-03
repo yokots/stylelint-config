@@ -23,8 +23,8 @@
     "@angular-devkit/schematics": "^9.0.0-rc.2"
   },
   "dependencies": {
-    "stylelint": "^12.0.0",
-    "stylelint-scss": "^3.12.1"
+    "stylelint": "~13.7.2",
+    "stylelint-scss": "~3.18.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.7",

@@ -40,12 +40,20 @@ module.exports = {
     "scss/at-mixin-parentheses-space-before": "never",
     // "scss/at-mixin-pattern": regex | string
 
+    "scss/dollar-variable-first-in-block": [true, {
+      "ignore": ["comments", "imports"],
+      "except": ["root"]
+    }],
     "scss/dollar-variable-colon-newline-after": "always-multi-line",
     "scss/dollar-variable-colon-space-after": "always-single-line",
     "scss/dollar-variable-colon-space-before": "never",
     "scss/dollar-variable-empty-line-before": ["always", {
       "except": ["first-nested", "after-dollar-variable"],
       "ignore": ["after-comment", "inside-single-line-block"]
+    }],
+    "scss/dollar-variable-empty-line-after": ["always", {
+      "except": ["last-nested", "before-dollar-variable"],
+      "ignore": ["before-comment", "inside-single-line-block"]
     }],
     "scss/dollar-variable-no-missing-interpolation": true,
     // "scss/dollar-variable-default": [true, {
@@ -55,9 +63,10 @@ module.exports = {
 
     // "scss/percent-placeholder-pattern": regex | string
 
+    "scss/comment-no-empty": true,
     "scss/double-slash-comment-empty-line-before": ["always", {
       "except": ["first-nested"],
-      "ignore": ["between-comments", "stylelint-commands"]
+      "ignore": ["between-comments", "stylelint-commands", "inside-block"]
     }],
     "scss/double-slash-comment-whitespace-inside": "always",
     // "scss/double-slash-comment-inline": "always"
@@ -83,6 +92,8 @@ module.exports = {
     // https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/dimension-no-non-numeric-values/README.md
     "scss/dimension-no-non-numeric-values": true,
 
-    "scss/no-duplicate-mixins": true
+    "scss/no-duplicate-mixins": true,
+    // 禁止使用 SCSS 的全局方法， 使用 @use
+    "scss/no-global-function-names": true,
   }
 }
