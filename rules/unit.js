@@ -7,8 +7,8 @@ module.exports = {
      // 0值不需要加单位
     "length-zero-no-unit": true,
     // 单位黑名单
-    // "unit-blacklist": array|string,
+    // "unit-disallowed-list": array|string,
     // 单位白名单
-    // "unit-whitelist": array|string,
+    // "unit-allowed-list": array|string,
   }
 }

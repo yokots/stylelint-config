@@ -1,6 +1,6 @@
 {
   "name": "@yokots/stylelint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "yoko style lint",
   "main": "index.js",
   "keywords": [
@@ -12,6 +12,6 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": "^11.1.1"
+    "stylelint": "~13.7.2"
   }
 }

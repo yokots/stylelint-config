@@ -30,10 +30,10 @@ module.exports = {
     // 自定义媒体查询模式
     // "custom-media-pattern：" regex|string,
     // 媒体属性黑名单
-    // media-feature-name-blacklist: array|string|regex ,
+    // media-feature-name-disallowed-list: array|string|regex ,
     // 媒体属性白名单
-    // media-feature-name-whitelist: array|string|regex,
+    // media-feature-name-allowed-list: array|string|regex,
     // 媒体属性值白名单
-    // "media-feature-name-value-whitelist":
+    // "media-feature-name-value-allowed-list":
   }
 }

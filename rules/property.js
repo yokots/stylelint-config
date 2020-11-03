@@ -24,7 +24,7 @@ module.exports = {
     // 自定义属性的模式
     // "custom-property-pattern": regex|string
 
-    // "property-blacklist": array|string // 属性名黑名单
-    // "property-whitelist": array|string // 属性名白名单
+    // "property-disallowed-list": array|string // 属性名黑名单
+    // "property-allowed-list": array|string // 属性名白名单
   }
 }
