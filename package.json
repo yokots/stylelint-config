@@ -12,7 +12,6 @@
     "email": "hd.wang1993@gmail.com"
   },
   "license": "MIT",
-  "schematics": "./schematics/collection.json",
   "peerDependencies": {
     "stylelint": "~13.7.2"
   },

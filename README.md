@@ -30,14 +30,6 @@
   ```
 - ```npx stylelint src/**/*.scss``` （npx 仅可在 npm 5.2 之上适用）
 
-> 如果使用 `angular` 可使用如下命令
-
-```
-ng add @yokots/stylelint-config-scss
-
-npm run lint:style
-```
-
 # 强烈建议
 
   > 每个人在自己的工程中配置 `pre-commit` 钩子，在提交代码之前进行检查
