@@ -16,6 +16,6 @@
     "stylelint": "~13.7.2"
   },
   "dependencies": {
-    "stylelint-scss": "~3.18.0"
+    "stylelint-scss": "~3.21.0"
   }
 }
