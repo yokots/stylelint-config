@@ -21,6 +21,8 @@ module.exports = {
     "at-rule-semicolon-newline-after": "always",
     // 分号之前没有空格
     "at-rule-semicolon-space-before": "never",
+    // @import 应该放在最前
+    "no-invalid-position-at-import-rule": true,
 
     // at-rule 黑名单
     // "at-rule-disallowed-list": array|string

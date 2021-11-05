@@ -4,9 +4,9 @@ module.exports = {
     "declaration-no-important": true,
     // 声明关键帧时禁用 !important 修饰符 https://stylelint.io/user-guide/rules/keyframe-declaration-no-important/
     "keyframe-declaration-no-important": true,
-    // !important ! 之后没有空格
+    // !important ! 之后没有空格
     "declaration-bang-space-after": "never",
-    // !important ! 之前保留一个空格
+    // !important ! 之前保留一个空格
     "declaration-bang-space-before": "always",
 
     // 分号之后属性值有多行时另起一行
@@ -33,6 +33,8 @@ module.exports = {
     "declaration-block-semicolon-space-after": "always-single-line",
     // 声明分号之前不需要空格
     "declaration-block-semicolon-space-before": "never",
+    // 声明块禁止重复的自定义属性
+    "declaration-block-no-duplicate-custom-properties": true,
 
     // 属性名和单位对黑名单
     // "declaration-property-unit-disallowed-list": object,

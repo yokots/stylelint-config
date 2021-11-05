@@ -1,6 +1,6 @@
 module.exports = {
   "rules": {
-    // 使用数字表示字体粗细， 400 = normal，700 = bold
+    // 使用数字表示字体粗细， 400 = normal，700 = bold
     "font-weight-notation": ["numeric", {
       "ignore": ["relative"]
     }],

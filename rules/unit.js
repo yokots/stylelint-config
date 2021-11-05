@@ -2,7 +2,7 @@ module.exports = {
   "rules": {
     // 单位要小写
     "unit-case": "lower",
-    // 禁止不正确的单位 10pixels
+    // 禁止不正确的单位 10pixels
     "unit-no-unknown": true,
      // 0值不需要加单位
     "length-zero-no-unit": true,

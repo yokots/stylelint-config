@@ -3,8 +3,8 @@ module.exports = {
     "stylelint-scss"
   ],
   "rules": {
-
     "scss/at-each-key-value-single-line": true,
+    "at-rule-no-unknown": null,
     // 覆写 stylelint 的规则，添加 scss 自有的 at rule
     "scss/at-rule-no-unknown": true,
 
@@ -93,6 +93,7 @@ module.exports = {
     "scss/dimension-no-non-numeric-values": true,
 
     "scss/no-duplicate-mixins": true,
+    "scss/no-duplicate-dollar-variables": true,
     // 禁止使用 SCSS 的全局方法， 使用 @use
     "scss/no-global-function-names": true,
   }

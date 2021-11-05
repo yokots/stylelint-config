@@ -2,12 +2,10 @@ module.exports = {
   "rules": {
     // 函数名字小写
     "function-name-case": "lower",
-    // 多行函数禁止相邻空行
+    // 多行函数禁止相邻空行
     "function-max-empty-lines": 0,
     // 多个函数之间需要一个空格
     "function-whitespace-after": "always",
-    // 禁止在 calc 函数中使用无效表达式。
-    "function-calc-no-invalid": true,
      // calc 函数的数学操作符两边应有空格
     "function-calc-no-unspaced-operator": true,
     // https://stylelint.io/user-guide/rules/function-comma-newline-after/

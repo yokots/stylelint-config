@@ -7,7 +7,7 @@ module.exports = {
       "except": ["first-nested"],
       "ignore": ["after-comment"]
     }],
-    // 右大括号之前不需要空行
+    // 右大括号之前不需要空行
     "block-closing-brace-empty-line-before": "never",
     // 右大括号之后另起一行
     "block-closing-brace-newline-after": ["always", {

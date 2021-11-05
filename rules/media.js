@@ -4,10 +4,10 @@ module.exports = {
     "media-feature-name-no-unknown": true,
     // 小写的媒体属性 max-width
     "media-feature-name-case": "lower",
-    // 禁止媒体属性供应商前缀
+    // 禁止媒体属性供应商前缀
     "media-feature-name-no-vendor-prefix": true,
 
-    // 媒体属性分号之后保留一个空格
+    // 媒体属性分号之后保留一个空格
     "media-feature-colon-space-after": "always",
     // 媒体属性分号以前禁止空格
     "media-feature-colon-space-before": "never",
@@ -27,7 +27,7 @@ module.exports = {
     // 媒体查询单行的列表逗号之前无空格
     "media-query-list-comma-space-before": "never",
 
-    // 自定义媒体查询模式
+    // 自定义媒体查询模式
     // "custom-media-pattern：" regex|string,
     // 媒体属性黑名单
     // media-feature-name-disallowed-list: array|string|regex ,
