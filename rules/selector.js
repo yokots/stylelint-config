@@ -94,6 +94,10 @@ module.exports = {
     // "selector-max-specificity": string,
     // 嵌套规则
     // "selector-nested-pattern": regex|string
+    // 选择器黑名单
+    // "selector-disallowed-lis": array|string|regex,
+    // 属性选择器黑名单
+    // "selector-attribute-operator-disallowed-list": array|string|regex,
     // 属性选择器操作符黑名单
     // "selector-attribute-operator-disallowed-list": array|string,
     // 属性选择器操作符白名单

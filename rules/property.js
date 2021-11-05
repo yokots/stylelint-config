@@ -2,7 +2,7 @@ module.exports = {
   "rules": {
     // 小写的属性名
     "property-case": "lower",
-    // 禁止不正确的属性名
+    // 禁止不正确的属性名
     "property-no-unknown": true,
     // 属性名前不要有浏览器厂商前缀
     "property-no-vendor-prefix": true,
@@ -16,7 +16,10 @@ module.exports = {
     // 禁止可以简写的属性写成多个长属性 (应该交给 clean css 等工具来做)
     // "declaration-block-no-redundant-longhand-properties": true,
 
-    // 自定义属性之前需要一个空行
+    // 自定义属性不要忘记使用 var 函数
+    "custom-property-no-missing-var-function": true,
+
+    // 自定义属性之前需要一个空行
     "custom-property-empty-line-before": ["always", {
       "except": ["after-custom-property", "first-nested"],
       "ignore": ["after-comment", "inside-single-line-block"]

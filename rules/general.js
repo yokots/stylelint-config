@@ -26,5 +26,7 @@ module.exports = {
     "no-unknown-animations": true,
     // 换行格式
     "linebreaks": "unix",
+    // 禁止不规则的空白符
+    "no-irregular-whitespace": true,
   }
 }

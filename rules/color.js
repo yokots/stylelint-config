@@ -16,5 +16,7 @@ module.exports = {
     // "color-named": "always-where-possible"|"never",
     // 禁止使用16禁止颜色
     // "color-no-hex": true,
+    // 使用带alpha通道的16进制色值
+    // "color-hex-alpha": "always",
   }
 }

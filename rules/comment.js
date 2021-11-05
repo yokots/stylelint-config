@@ -12,6 +12,8 @@ module.exports = {
       "ignore": ["after-comment", "stylelint-commands"]
     }],
     // 注释黑名单
-    // "comment-word-disallowed-list": array|string
+    // "comment-word-disallowed-list": array|string,
+    // 指定注释模式
+    // "comment-pattern": regex|string,
   }
 }
