@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": "~14.0.1"
+    "stylelint": "~14.0.1 || ~14.1.0"
   },
   "dependencies": {
     "stylelint-scss": "~4.0.0"
