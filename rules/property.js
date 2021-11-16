@@ -9,7 +9,7 @@ module.exports = {
 
     // 禁止重复的属性声明
     "declaration-block-no-duplicate-properties": [true, {
-      "ignore": ["consecutive-duplicates-with-different-values"]
+      "ignore": ["consecutive-duplicates-with-different-values", "consecutive-duplicates-with-same-prefixless-values"]
     }],
     // 禁止短属性覆盖长属性
     "declaration-block-no-shorthand-property-overrides": true,
